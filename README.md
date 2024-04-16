@@ -1,5 +1,7 @@
 # Website Health Checker
 
+![WHC](https://github.com/Symbolexe/WHC/assets/140549630/6bf97805-ea21-4b8b-8133-4c488d6f0cb1)
+
 Website Health Checker ( WHC ) is a Python tool for monitoring the availability of websites. It allows users to specify a list of websites to monitor and checks their status periodically. The tool supports Telegram notifications for website status changes.
 
 ## Features

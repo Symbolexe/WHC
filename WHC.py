@@ -7,7 +7,7 @@ from telegram import Bot
 
 def check_website(url, log_file, bot_info):
     try:
-        response = requests.get(url)
+        response = requests.get(url, allow_redirects=True)
         if response.status_code == 200:
             log_status(log_file, url, "Alive")
         else:
